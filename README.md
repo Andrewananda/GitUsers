@@ -1,7 +1,7 @@
 ## Github Users Api
 	
 	Screenshorts
-	<img src="https://github.com/Andrewananda/GitUsers/GitUsers/Screenshots/splash.png" width="270"/>  <img src="https://github.com/Andrewananda/GitUsers/GitUsers/Screenshots/search.png" width="270"/> <img src="https://github.com/Andrewananda/GitUsers/GitUsers/Screenshots/profile.png" width="270"/>
+	<img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/splash.png" width="270"/>  <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/search.png" width="270"/> <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png" width="270"/>
 
 
 ### Prerequisites
@@ -21,4 +21,4 @@ token="xxxx-xxxx-xxx"
 ### Tests
 	Github users unit tests
 	
-	<img src="https://github.com/Andrewananda//GitUsersGitUsers/Screenshots/tests.png" width="270"/>
+	<img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/tests.png" width="270"/>
