@@ -1,7 +1,13 @@
 ## Github Users Api
 	
 	Screenshorts
-	<img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/splash.png" width="270"/>  <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/search.png" width="270"/> <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png" width="270"/>
+	 <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/splash.png" width="270"/> 
+	 <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/search.png" width="270"/> 
+	 <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png" width="270"/>
+
+
+### Clone
+git clone https://github.com/Andrewananda/GitUsers.git
 
 
 ### Prerequisites
