@@ -28,5 +28,5 @@ token="xxxx-xxxx-xxx"
 	Github users unit tests
 	
 	<details>
-		<img alt="tests" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/screenshot/tests.png" width="270"/>
+		<img alt="tests" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/screenshot/tests.png" width="270"/>
 	</details>
