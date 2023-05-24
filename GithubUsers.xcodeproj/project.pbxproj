@@ -167,6 +167,7 @@
 		8CB9521C2A17A69000DF5940 = {
 			isa = PBXGroup;
 			children = (
+				8CE63AE32A1DF73200769C3D /* Screenshots */,
 				8CB952272A17A69000DF5940 /* GithubUsers */,
 				8CB9523E2A17A69200DF5940 /* GithubUsersTests */,
 				8CB952482A17A69200DF5940 /* GithubUsersUITests */,
@@ -188,7 +189,6 @@
 		8CB952272A17A69000DF5940 /* GithubUsers */ = {
 			isa = PBXGroup;
 			children = (
-				8CE63AE32A1DF73200769C3D /* Screenshots */,
 				8C5AD96C2A1BAEB800CF79A7 /* Views */,
 				8CB9527D2A18B66D00DF5940 /* Utilities */,
 				8CB9527A2A18B5FA00DF5940 /* Repositiories */,

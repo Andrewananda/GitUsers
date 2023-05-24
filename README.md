@@ -1,9 +1,9 @@
 ## Github Users Api
 	
 	Screenshorts
-		 <img alt="splash" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/Screenshots/splash.png" width="270"/> 
-		 <img alt="search" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/search.png" width="270"/> 
-		 <img alt="profile" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png" width="270"/>
+		 <img alt="splash" src="https://github.com/Andrewananda/GitUsers/Screenshots/splash.png" width="270"/> 
+		 <img alt="search" src="https://github.com/Andrewananda/GitUsers/Screenshots/search.png" width="270"/> 
+		 <img alt="profile" src="https://github.com/Andrewananda/GitUsers/Screenshots/profile.png" width="270"/>
 	 
 	 ![splash](Screenshots/splash.png)
 
