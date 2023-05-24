@@ -5,6 +5,7 @@
 		 <img alt="search" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/search.png" width="270"/> 
 		 <img alt="profile" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png" width="270"/>
 	 
+	 ![splash](Screenshots/splash.png)
 
 
 ### Clone
