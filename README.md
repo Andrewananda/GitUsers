@@ -4,6 +4,8 @@
 	 <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/splash.png" width="270"/> 
 	 <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/search.png" width="270"/> 
 	 <img src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png" width="270"/>
+	 
+	 ![Screenshot](https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png)
 
 
 ### Clone
