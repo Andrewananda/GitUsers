@@ -1,9 +1,9 @@
 ## Github Users Api
 	
 	Screenshorts
-		 <img alt="splash" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/Screenshots/splash.png" width="270"/> 
-		 <img alt="search" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/Screenshots/search.png" width="270"/> 
-		 <img alt="profile" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/Screenshots/profile.png" width="270"/>
+		 <img alt="splash" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/screenshot/splash.png" width="270"/> 
+		 <img alt="search" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/screenshot/search.png" width="270"/> 
+		 <img alt="profile" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/screenshot/profile.png" width="270"/>
 
 
 ### Clone
@@ -28,5 +28,5 @@ token="xxxx-xxxx-xxx"
 	Github users unit tests
 	
 	<details>
-		<img alt="tests" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/Screenshots/tests.png" width="270"/>
+		<img alt="tests" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/screenshot/tests.png" width="270"/>
 	</details>
