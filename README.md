@@ -1,13 +1,10 @@
 ## Github Users Api
 	
 	Screenshorts
-	<details>
-		 <img alt="splash" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/splash.png" width="270"/> 
+		 <img alt="splash" src="https://github.com/Andrewananda/GitUsers/blob/main/GithubUsers/Screenshots/splash.png" width="270"/> 
 		 <img alt="search" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/search.png" width="270"/> 
 		 <img alt="profile" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png" width="270"/>
-	 </details>
 	 
-	 ![alt text](https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png?raw=true)
 
 
 ### Clone
