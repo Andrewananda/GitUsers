@@ -28,4 +28,4 @@ token="xxxx-xxxx-xxx"
 	Github users unit tests
 
 <!--	 <img alt="profile" src="./GithubUsers/screenshot/profile.png" width="270"/>-->
-	 ![Alt text](https://github.com/Andrewananda/GitUsers/raw/main/GithubUsers/screenshot/splash.png)
+	 [![profile.png](https://i.postimg.cc/J44HGSRC/profile.png)](https://postimg.cc/py4LSG9s)
