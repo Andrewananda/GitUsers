@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C5AD9652A1B9D7F00CF79A7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8C5AD9642A1B9D7F00CF79A7 /* Kingfisher */; };
+		8C5AD9672A1B9DE600CF79A7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD9662A1B9DE600CF79A7 /* Extensions.swift */; };
+		8C5AD9692A1BA98D00CF79A7 /* FollowerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD9682A1BA98D00CF79A7 /* FollowerRepository.swift */; };
+		8C5AD96B2A1BAD8500CF79A7 /* FollowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD96A2A1BAD8500CF79A7 /* FollowModel.swift */; };
+		8C5AD96E2A1BAEFF00CF79A7 /* FollowingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD96D2A1BAEFF00CF79A7 /* FollowingCell.swift */; };
+		8C5AD97C2A1C5B0500CF79A7 /* UIView-Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = 8C5AD97B2A1C5B0500CF79A7 /* UIView-Shimmer */; };
+		8C5AD97E2A1CB87F00CF79A7 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD97D2A1CB87F00CF79A7 /* MessageView.swift */; };
+		8C5AD9802A1CDDEB00CF79A7 /* FollowersEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD97F2A1CDDEB00CF79A7 /* FollowersEntity.swift */; };
+		8C5AD9822A1DDDEE00CF79A7 /* APIMockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD9812A1DDDEE00CF79A7 /* APIMockingTests.swift */; };
+		8C5AD9852A1DDEB400CF79A7 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD9842A1DDEB400CF79A7 /* MockURLProtocol.swift */; };
+		8C5AD9872A1DDED000CF79A7 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD9862A1DDED000CF79A7 /* MockService.swift */; };
+		8C5AD9892A1DDFAD00CF79A7 /* UserServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD9882A1DDFAD00CF79A7 /* UserServiceTests.swift */; };
+		8C5AD98B2A1DE11E00CF79A7 /* FollowersServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD98A2A1DE11E00CF79A7 /* FollowersServiceTests.swift */; };
+		8C5AD9922A1DE56F00CF79A7 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AD9912A1DE56F00CF79A7 /* ServiceError.swift */; };
 		8CB952292A17A69000DF5940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB952282A17A69000DF5940 /* AppDelegate.swift */; };
 		8CB9522B2A17A69000DF5940 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9522A2A17A69000DF5940 /* SceneDelegate.swift */; };
 		8CB9522D2A17A69000DF5940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9522C2A17A69000DF5940 /* ViewController.swift */; };
@@ -16,6 +30,20 @@
 		8CB952402A17A69200DF5940 /* GithubUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9523F2A17A69200DF5940 /* GithubUsersTests.swift */; };
 		8CB9524A2A17A69200DF5940 /* GithubUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB952492A17A69200DF5940 /* GithubUsersUITests.swift */; };
 		8CB9524C2A17A69200DF5940 /* GithubUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9524B2A17A69200DF5940 /* GithubUsersUITestsLaunchTests.swift */; };
+		8CB9525F2A17A73100DF5940 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9525E2A17A73100DF5940 /* ApiService.swift */; };
+		8CB952612A17A74C00DF5940 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB952602A17A74C00DF5940 /* Reachability.swift */; };
+		8CB9526B2A17A8D400DF5940 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB9526A2A17A8D400DF5940 /* RxRelay */; };
+		8CB9526D2A17A8D400DF5940 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB9526C2A17A8D400DF5940 /* RxSwift */; };
+		8CB952702A17BDAA00DF5940 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB9526F2A17BDAA00DF5940 /* Realm */; };
+		8CB952722A17BDAA00DF5940 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB952712A17BDAA00DF5940 /* RealmSwift */; };
+		8CB952762A17C3E000DF5940 /* DbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB952752A17C3E000DF5940 /* DbManager.swift */; };
+		8CB952792A18AD8000DF5940 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB952782A18AD8000DF5940 /* UserEntity.swift */; };
+		8CB9527C2A18B60E00DF5940 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9527B2A18B60E00DF5940 /* UserRepository.swift */; };
+		8CB9527F2A18B67900DF5940 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9527E2A18B67900DF5940 /* Constants.swift */; };
+		8CB952822A18B7BF00DF5940 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB952812A18B7BF00DF5940 /* UserModel.swift */; };
+		8CB952852A18B86100DF5940 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB952842A18B86100DF5940 /* UserViewModel.swift */; };
+		8CE63AE02A1DF38E00769C3D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE63ADF2A1DF38E00769C3D /* Realm */; };
+		8CE63AE22A1DF39400769C3D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE63AE12A1DF39400769C3D /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +64,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C5AD9662A1B9DE600CF79A7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8C5AD9682A1BA98D00CF79A7 /* FollowerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerRepository.swift; sourceTree = "<group>"; };
+		8C5AD96A2A1BAD8500CF79A7 /* FollowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowModel.swift; sourceTree = "<group>"; };
+		8C5AD96D2A1BAEFF00CF79A7 /* FollowingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingCell.swift; sourceTree = "<group>"; };
+		8C5AD97D2A1CB87F00CF79A7 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		8C5AD97F2A1CDDEB00CF79A7 /* FollowersEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersEntity.swift; sourceTree = "<group>"; };
+		8C5AD9812A1DDDEE00CF79A7 /* APIMockingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMockingTests.swift; sourceTree = "<group>"; };
+		8C5AD9842A1DDEB400CF79A7 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		8C5AD9862A1DDED000CF79A7 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		8C5AD9882A1DDFAD00CF79A7 /* UserServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceTests.swift; sourceTree = "<group>"; };
+		8C5AD98A2A1DE11E00CF79A7 /* FollowersServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersServiceTests.swift; sourceTree = "<group>"; };
+		8C5AD9912A1DE56F00CF79A7 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		8CB952252A17A69000DF5940 /* GithubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB952282A17A69000DF5940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB9522A2A17A69000DF5940 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +89,14 @@
 		8CB952452A17A69200DF5940 /* GithubUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB952492A17A69200DF5940 /* GithubUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsersUITests.swift; sourceTree = "<group>"; };
 		8CB9524B2A17A69200DF5940 /* GithubUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CB9525E2A17A73100DF5940 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		8CB952602A17A74C00DF5940 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8CB952752A17C3E000DF5940 /* DbManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbManager.swift; sourceTree = "<group>"; };
+		8CB952782A18AD8000DF5940 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		8CB9527B2A18B60E00DF5940 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		8CB9527E2A18B67900DF5940 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8CB952812A18B7BF00DF5940 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8CB952842A18B86100DF5940 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB952722A17BDAA00DF5940 /* RealmSwift in Frameworks */,
+				8C5AD97C2A1C5B0500CF79A7 /* UIView-Shimmer in Frameworks */,
+				8CB952702A17BDAA00DF5940 /* Realm in Frameworks */,
+				8CB9526D2A17A8D400DF5940 /* RxSwift in Frameworks */,
+				8CB9526B2A17A8D400DF5940 /* RxRelay in Frameworks */,
+				8C5AD9652A1B9D7F00CF79A7 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +117,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE63AE22A1DF39400769C3D /* RealmSwift in Frameworks */,
+				8CE63AE02A1DF38E00769C3D /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +132,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C5AD96C2A1BAEB800CF79A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C5AD96D2A1BAEFF00CF79A7 /* FollowingCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C5AD9832A1DDE9F00CF79A7 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				8C5AD9842A1DDEB400CF79A7 /* MockURLProtocol.swift */,
+				8C5AD9862A1DDED000CF79A7 /* MockService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		8C5AD98C2A1DE48D00CF79A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8CB9521C2A17A69000DF5940 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +163,7 @@
 				8CB9523E2A17A69200DF5940 /* GithubUsersTests */,
 				8CB952482A17A69200DF5940 /* GithubUsersUITests */,
 				8CB952262A17A69000DF5940 /* Products */,
+				8C5AD98C2A1DE48D00CF79A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +180,16 @@
 		8CB952272A17A69000DF5940 /* GithubUsers */ = {
 			isa = PBXGroup;
 			children = (
-				8CB952282A17A69000DF5940 /* AppDelegate.swift */,
-				8CB9522A2A17A69000DF5940 /* SceneDelegate.swift */,
-				8CB9522C2A17A69000DF5940 /* ViewController.swift */,
-				8CB9522E2A17A69000DF5940 /* Main.storyboard */,
-				8CB952312A17A69100DF5940 /* Assets.xcassets */,
-				8CB952332A17A69100DF5940 /* LaunchScreen.storyboard */,
+				8CE63AE32A1DF73200769C3D /* Screenshots */,
+				8C5AD96C2A1BAEB800CF79A7 /* Views */,
+				8CB9527D2A18B66D00DF5940 /* Utilities */,
+				8CB9527A2A18B5FA00DF5940 /* Repositiories */,
+				8CB952732A17C3B800DF5940 /* Data */,
+				8CB9525D2A17A70400DF5940 /* Storyboards */,
+				8CB9525C2A17A6E300DF5940 /* Resources */,
+				8CB9525B2A17A6C700DF5940 /* ViewModels */,
+				8CB9525A2A17A6BB00DF5940 /* Models */,
+				8CB952592A17A6AE00DF5940 /* ViewControllers */,
 				8CB952362A17A69100DF5940 /* Info.plist */,
 			);
 			path = GithubUsers;
@@ -114,6 +199,9 @@
 			isa = PBXGroup;
 			children = (
 				8CB9523F2A17A69200DF5940 /* GithubUsersTests.swift */,
+				8C5AD9812A1DDDEE00CF79A7 /* APIMockingTests.swift */,
+				8C5AD9882A1DDFAD00CF79A7 /* UserServiceTests.swift */,
+				8C5AD98A2A1DE11E00CF79A7 /* FollowersServiceTests.swift */,
 			);
 			path = GithubUsersTests;
 			sourceTree = "<group>";
@@ -125,6 +213,130 @@
 				8CB9524B2A17A69200DF5940 /* GithubUsersUITestsLaunchTests.swift */,
 			);
 			path = GithubUsersUITests;
+			sourceTree = "<group>";
+		};
+		8CB952582A17A6A300DF5940 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9525E2A17A73100DF5940 /* ApiService.swift */,
+				8CB952602A17A74C00DF5940 /* Reachability.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8CB952592A17A6AE00DF5940 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9522C2A17A69000DF5940 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8CB9525A2A17A6BB00DF5940 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CB9525B2A17A6C700DF5940 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8CB952832A18B84B00DF5940 /* UserViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8CB9525C2A17A6E300DF5940 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CB952282A17A69000DF5940 /* AppDelegate.swift */,
+				8CB9522A2A17A69000DF5940 /* SceneDelegate.swift */,
+				8CB952312A17A69100DF5940 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8CB9525D2A17A70400DF5940 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9522E2A17A69000DF5940 /* Main.storyboard */,
+				8CB952332A17A69100DF5940 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8CB952732A17C3B800DF5940 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8C5AD9832A1DDE9F00CF79A7 /* Mock */,
+				8CB952802A18B77200DF5940 /* Models */,
+				8CB952772A18AD6C00DF5940 /* Entities */,
+				8CB952742A17C3C300DF5940 /* DB */,
+				8CB952582A17A6A300DF5940 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8CB952742A17C3C300DF5940 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				8CB952752A17C3E000DF5940 /* DbManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		8CB952772A18AD6C00DF5940 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8CB952782A18AD8000DF5940 /* UserEntity.swift */,
+				8C5AD97F2A1CDDEB00CF79A7 /* FollowersEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8CB9527A2A18B5FA00DF5940 /* Repositiories */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9527B2A18B60E00DF5940 /* UserRepository.swift */,
+				8C5AD9682A1BA98D00CF79A7 /* FollowerRepository.swift */,
+			);
+			path = Repositiories;
+			sourceTree = "<group>";
+		};
+		8CB9527D2A18B66D00DF5940 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9527E2A18B67900DF5940 /* Constants.swift */,
+				8C5AD9662A1B9DE600CF79A7 /* Extensions.swift */,
+				8C5AD97D2A1CB87F00CF79A7 /* MessageView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8CB952802A18B77200DF5940 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CB952812A18B7BF00DF5940 /* UserModel.swift */,
+				8C5AD96A2A1BAD8500CF79A7 /* FollowModel.swift */,
+				8C5AD9912A1DE56F00CF79A7 /* ServiceError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CB952832A18B84B00DF5940 /* UserViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8CB952842A18B86100DF5940 /* UserViewModel.swift */,
+			);
+			path = UserViewModel;
+			sourceTree = "<group>";
+		};
+		8CE63AE32A1DF73200769C3D /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +355,14 @@
 			dependencies = (
 			);
 			name = GithubUsers;
+			packageProductDependencies = (
+				8CB9526A2A17A8D400DF5940 /* RxRelay */,
+				8CB9526C2A17A8D400DF5940 /* RxSwift */,
+				8CB9526F2A17BDAA00DF5940 /* Realm */,
+				8CB952712A17BDAA00DF5940 /* RealmSwift */,
+				8C5AD9642A1B9D7F00CF79A7 /* Kingfisher */,
+				8C5AD97B2A1C5B0500CF79A7 /* UIView-Shimmer */,
+			);
 			productName = GithubUsers;
 			productReference = 8CB952252A17A69000DF5940 /* GithubUsers.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +381,10 @@
 				8CB9523D2A17A69200DF5940 /* PBXTargetDependency */,
 			);
 			name = GithubUsersTests;
+			packageProductDependencies = (
+				8CE63ADF2A1DF38E00769C3D /* Realm */,
+				8CE63AE12A1DF39400769C3D /* RealmSwift */,
+			);
 			productName = GithubUsersTests;
 			productReference = 8CB9523B2A17A69200DF5940 /* GithubUsersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -207,7 +431,7 @@
 				};
 			};
 			buildConfigurationList = 8CB952202A17A69000DF5940 /* Build configuration list for PBXProject "GithubUsers" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -215,6 +439,12 @@
 				Base,
 			);
 			mainGroup = 8CB9521C2A17A69000DF5940;
+			packageReferences = (
+				8CB952692A17A8D400DF5940 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				8CB9526E2A17BDAA00DF5940 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				8C5AD9632A1B9D7F00CF79A7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				8C5AD97A2A1C5B0500CF79A7 /* XCRemoteSwiftPackageReference "UIView-Shimmer" */,
+			);
 			productRefGroup = 8CB952262A17A69000DF5940 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +488,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5AD9922A1DE56F00CF79A7 /* ServiceError.swift in Sources */,
+				8C5AD96E2A1BAEFF00CF79A7 /* FollowingCell.swift in Sources */,
 				8CB9522D2A17A69000DF5940 /* ViewController.swift in Sources */,
+				8CB952852A18B86100DF5940 /* UserViewModel.swift in Sources */,
+				8C5AD9852A1DDEB400CF79A7 /* MockURLProtocol.swift in Sources */,
 				8CB952292A17A69000DF5940 /* AppDelegate.swift in Sources */,
+				8CB9525F2A17A73100DF5940 /* ApiService.swift in Sources */,
+				8C5AD96B2A1BAD8500CF79A7 /* FollowModel.swift in Sources */,
+				8CB952612A17A74C00DF5940 /* Reachability.swift in Sources */,
+				8CB952792A18AD8000DF5940 /* UserEntity.swift in Sources */,
+				8CB952762A17C3E000DF5940 /* DbManager.swift in Sources */,
+				8C5AD9872A1DDED000CF79A7 /* MockService.swift in Sources */,
+				8C5AD9672A1B9DE600CF79A7 /* Extensions.swift in Sources */,
+				8C5AD9692A1BA98D00CF79A7 /* FollowerRepository.swift in Sources */,
+				8CB9527C2A18B60E00DF5940 /* UserRepository.swift in Sources */,
+				8C5AD9802A1CDDEB00CF79A7 /* FollowersEntity.swift in Sources */,
+				8C5AD97E2A1CB87F00CF79A7 /* MessageView.swift in Sources */,
 				8CB9522B2A17A69000DF5940 /* SceneDelegate.swift in Sources */,
+				8CB952822A18B7BF00DF5940 /* UserModel.swift in Sources */,
+				8CB9527F2A18B67900DF5940 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +516,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB952402A17A69200DF5940 /* GithubUsersTests.swift in Sources */,
+				8C5AD9822A1DDDEE00CF79A7 /* APIMockingTests.swift in Sources */,
+				8C5AD9892A1DDFAD00CF79A7 /* UserServiceTests.swift in Sources */,
+				8C5AD98B2A1DE11E00CF79A7 /* FollowersServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +694,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +722,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,6 +848,84 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C5AD9632A1B9D7F00CF79A7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		8C5AD97A2A1C5B0500CF79A7 /* XCRemoteSwiftPackageReference "UIView-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/omerfarukozturk/UIView-Shimmer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		8CB952692A17A8D400DF5940 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		8CB9526E2A17BDAA00DF5940 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C5AD9642A1B9D7F00CF79A7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C5AD9632A1B9D7F00CF79A7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		8C5AD97B2A1C5B0500CF79A7 /* UIView-Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C5AD97A2A1C5B0500CF79A7 /* XCRemoteSwiftPackageReference "UIView-Shimmer" */;
+			productName = "UIView-Shimmer";
+		};
+		8CB9526A2A17A8D400DF5940 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB952692A17A8D400DF5940 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		8CB9526C2A17A8D400DF5940 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB952692A17A8D400DF5940 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		8CB9526F2A17BDAA00DF5940 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB9526E2A17BDAA00DF5940 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		8CB952712A17BDAA00DF5940 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB9526E2A17BDAA00DF5940 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		8CE63ADF2A1DF38E00769C3D /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB9526E2A17BDAA00DF5940 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		8CE63AE12A1DF39400769C3D /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB9526E2A17BDAA00DF5940 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8CB9521D2A17A69000DF5940 /* Project object */;
 }
