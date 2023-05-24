@@ -7,6 +7,7 @@
 		 <img alt="profile" src="https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png" width="270"/>
 	 </details>
 	 
+	 ![alt text](https://github.com/Andrewananda/GitUsers/tree/main/GithubUsers/Screenshots/profile.png?raw=true)
 
 
 ### Clone
