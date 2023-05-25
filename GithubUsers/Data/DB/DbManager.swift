@@ -23,6 +23,7 @@ class DbManager {
 		}catch(let error) {
 			var config = Realm.Configuration(deleteRealmIfMigrationNeeded: true)
 			config.schemaVersion = self.schemaVersion
+			print("DBError \(error)")
 			realm = try! Realm(configuration: config)
 		}
 	}

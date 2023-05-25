@@ -44,10 +44,6 @@
 		8CB952852A18B86100DF5940 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB952842A18B86100DF5940 /* UserViewModel.swift */; };
 		8CE63AE02A1DF38E00769C3D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE63ADF2A1DF38E00769C3D /* Realm */; };
 		8CE63AE22A1DF39400769C3D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE63AE12A1DF39400769C3D /* RealmSwift */; };
-		8CE63AF12A1E034600769C3D /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE63AED2A1E034600769C3D /* splash.png */; };
-		8CE63AF22A1E034600769C3D /* tests.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE63AEE2A1E034600769C3D /* tests.png */; };
-		8CE63AF32A1E034600769C3D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE63AEF2A1E034600769C3D /* profile.png */; };
-		8CE63AF42A1E034600769C3D /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE63AF02A1E034600769C3D /* search.png */; };
 		8CE63AFA2A1E03AD00769C3D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE63AF62A1E03AC00769C3D /* profile.png */; };
 		8CE63AFB2A1E03AD00769C3D /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE63AF72A1E03AC00769C3D /* splash.png */; };
 		8CE63AFC2A1E03AD00769C3D /* tests.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE63AF82A1E03AC00769C3D /* tests.png */; };
@@ -105,10 +101,6 @@
 		8CB9527E2A18B67900DF5940 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8CB952812A18B7BF00DF5940 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		8CB952842A18B86100DF5940 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
-		8CE63AED2A1E034600769C3D /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../../../../../.Trash/splash.png; sourceTree = "<group>"; };
-		8CE63AEE2A1E034600769C3D /* tests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tests.png; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/tests.png"; sourceTree = "<group>"; };
-		8CE63AEF2A1E034600769C3D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../../../.Trash/profile.png; sourceTree = "<group>"; };
-		8CE63AF02A1E034600769C3D /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/search.png"; sourceTree = "<group>"; };
 		8CE63AF62A1E03AC00769C3D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		8CE63AF72A1E03AC00769C3D /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		8CE63AF82A1E03AC00769C3D /* tests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tests.png; sourceTree = "<group>"; };
@@ -197,7 +189,6 @@
 			isa = PBXGroup;
 			children = (
 				8CE63AF52A1E039000769C3D /* screenshot */,
-				8CE63AEC2A1E030700769C3D /* Screenshots */,
 				8C5AD96C2A1BAEB800CF79A7 /* Views */,
 				8CB9527D2A18B66D00DF5940 /* Utilities */,
 				8CB9527A2A18B5FA00DF5940 /* Repositiories */,
@@ -349,17 +340,6 @@
 			path = UserViewModel;
 			sourceTree = "<group>";
 		};
-		8CE63AEC2A1E030700769C3D /* Screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				8CE63AEF2A1E034600769C3D /* profile.png */,
-				8CE63AF02A1E034600769C3D /* search.png */,
-				8CE63AED2A1E034600769C3D /* splash.png */,
-				8CE63AEE2A1E034600769C3D /* tests.png */,
-			);
-			path = Screenshots;
-			sourceTree = "<group>";
-		};
 		8CE63AF52A1E039000769C3D /* screenshot */ = {
 			isa = PBXGroup;
 			children = (
@@ -493,11 +473,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE63AF12A1E034600769C3D /* splash.png in Resources */,
 				8CE63AFC2A1E03AD00769C3D /* tests.png in Resources */,
-				8CE63AF32A1E034600769C3D /* profile.png in Resources */,
-				8CE63AF22A1E034600769C3D /* tests.png in Resources */,
-				8CE63AF42A1E034600769C3D /* search.png in Resources */,
 				8CB952352A17A69100DF5940 /* LaunchScreen.storyboard in Resources */,
 				8CB952322A17A69100DF5940 /* Assets.xcassets in Resources */,
 				8CE63AFD2A1E03AD00769C3D /* search.png in Resources */,
